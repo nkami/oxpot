@@ -278,7 +278,7 @@ if __name__ == '__main__':
             added_smiles[to_add] = True
 
     print(f'filtered initial SMILES, {len(filtered_smiles)} molecules left.')
-    exit()
+
     data = []
     for cur_smiles in filtered_smiles:
         cur_row = {}
